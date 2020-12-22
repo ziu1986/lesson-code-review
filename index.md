@@ -3,10 +3,10 @@ layout: lesson
 permalink: /
 ---
 
-# Collaborative distributed version control
+# Collaborative feedback: code reviews
 
-We have learned how to make a git repository for a single person.
-What about sharing?
+We have learned how to make a git repository for a single person and share it with several people. What about feedback?
+
 * Sharing by email or manually: isn't fun and doesn't scale, projects
   are limited to the time and cognition of one person.
 * One person's repository on the web: allows one person to keep track
@@ -29,6 +29,7 @@ look into how to automate tasks using Git hooks.
 >
 > 1. Basic understanding of Git.
 > 2. You need a [GitHub](https://github.com) account.
+> 3. You need a project which where it has been performed some work. For instance the modular code development.
 >
 > We will do this exercise on [GitHub](https://github.com) but also
 > [GitLab](https://gitlab.com) and [Bitbucket](https://bitbucket.org) allow
