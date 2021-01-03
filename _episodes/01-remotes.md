@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: Concepts and motivation for code reviews
+title: Concepts and motivation
 teaching: 20
 exercises: 0
 questions:
