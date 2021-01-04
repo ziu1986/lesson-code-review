@@ -3,8 +3,16 @@ layout: lesson
 permalink: /
 ---
 
-# Collaborative feedback: code reviews
+# Collaborative feedback with code reviews
 
+The best way to make good work great.
+
+
+To give a general definition of what a good code means is almost impossible. If you are working alone in a project you could say that good code is something that works. In the moment where you are collaborating with several people, and is developing a code base which were written in the past it starts to get hard.
+
+## Motivation for doing code reviews in team work
+
+At some point in the life cycle of a code base when the number of developers are increased from one to N there will come a point where someone will suggest changes which are not forseen or planed for in the original base. Suddenly you can find your self working in a big project where several persons, at different times, have contributed to the development of the code base.
 
 
 <br>

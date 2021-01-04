@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: Give a code review
+title: Recieve a code review
 teaching: 10
 exercises: 50
 questions:
