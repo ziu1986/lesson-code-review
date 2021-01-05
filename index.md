@@ -27,7 +27,7 @@ At some point in the life cycle of a code base when the number of developers are
 ## Sources
 This lesson is build on the material given in the following sources:
 
-- [ostrowski.ninja](https://ostrowski.ninja/code-review-practices/)
+- Blog entry by [ostrowski.ninja](https://ostrowski.ninja/code-review-practices/)
 - [The Overflow](https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/)
 - [Google Engineering Practices](https://github.com/google/eng-practices)
 

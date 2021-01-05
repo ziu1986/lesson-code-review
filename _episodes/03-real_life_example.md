@@ -22,4 +22,4 @@ It is a collaborative project between scientists in the Terrestrial Sciences Sec
 The code base is mainly developed by the National Center for Atmospheric Research (NCAR), with a dedicated team of users and developers.
 
 ### A real life example of a pull request
-A pull request [example](https://github.com/ESCOMP/CTSM/pull/1241) for some small answer changes in the preparation of adding a new option for the bio-mass heat storage.
+A [pull request example](https://github.com/ESCOMP/CTSM/pull/1241) for some small answer changes in the preparation of adding a new option for the bio-mass heat storage.
