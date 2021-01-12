@@ -3,16 +3,13 @@ layout: lesson
 permalink: /
 ---
 
-# Collaborative feedback with code reviews
+# Code reviews makes good work great
 
 The best way to make good work great.
+To give a general definition of what a good code means is almost impossible. If you are working alone on a project you could say that good code is something that works. At the moment where you are collaborating with several people and you are developing a codebase that was written in the past, it starts to get hard.
 
-
-To give a general definition of what a good code means is almost impossible. If you are working alone in a project you could say that good code is something that works. In the moment where you are collaborating with several people, and is developing a code base which were written in the past it starts to get hard.
-
-## Motivation for doing code reviews in team work
-
-At some point in the life cycle of a code base when the number of developers are increased from one to N there will come a point where someone will suggest changes which are not forseen or planed for in the original base. Suddenly you can find your self working in a big project where several persons, at different times, have contributed to the development of the code base.
+## Code reviews for teams
+At some point in the life cycle of a codebase when the number of developers is increased from one to N there will come a point where someone will suggest changes that are not foreseen or planned for in the original base. Suddenly you can find yourself working on a big project where several persons, at different times, have contributed to the development of the codebase.
 
 
 <br>
@@ -20,17 +17,16 @@ At some point in the life cycle of a code base when the number of developers are
 ![](/img/index/wtf.png)
 
 
-*A technique to imporve code quality*
+*A code review separates good and bad code*
 <br>
 
 
 ## Sources
-This lesson is build on the material given in the following sources:
-
+This lesson material is taken from:
 - Blog entry by [ostrowski.ninja](https://ostrowski.ninja/code-review-practices/)
-- [The Overflow](https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/)
+- The Overflow article by [Gergely Orosz](https://stackoverflow.blog/2019/09/30/how-to-make-good-code-reviews-better/)
 - [Google Engineering Practices](https://github.com/google/eng-practices)
-
+- Medium article by [Joel Glovier](https://medium.com/@jglovier/improving-code-review-on-github-ca550ceac5b8)
 
 
 > ## Prerequisites

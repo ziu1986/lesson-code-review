@@ -22,6 +22,29 @@ keypoints:
 Code reviews can be long, that is true, but just like any other process can be optimized. Here are some code review best practices that can be implemented in your company.
 
 
+### How to do a code review?
+A code review is a discussion between developers. In addition to the original code author one need at least one, usually several team members. In a team or existing project the person who opens a PR will typically request which other team members that should do the review. If the code review is done through GitHub, these persons will be automatically notified. Of course, one could also ask for a PR without requesting a specific member to perform the review. A developer with free time could also be a natural choice for a person doing a review.
+
+A code review platform allows developers to see a comparison between the original code and changes proposed by code author. Both general comments about the code or specific feedback on each line of the code can be commented on. Typically a code review will end with one of the three following outcomes:
+
+- Accepted: the code is fine and the reviewer agrees to merge changes.
+- Rejected: the reviewer denies merging of the current state of the code. She/he should propose changes in the proposed code for the PR to be accepted.
+- Comment:  a reviewer adds remarks but doesn’t make the decision about merging. It can be useful when PR is work-in-progress or developer doesn’t feel competent enough to vouch for checked code.
+The code review process is a discussion, so sometimes requested changes are applied by the author, but sometimes code author doesn’t agree and discuss the problem with the reviewer. But this cuts both ways – sometimes it is a practical education process which ends with higher code standard, sometimes it’s a long and unproductive discussion (or even a flame!).
+
+
+
+
+### Language style
+It is hard to perform neutral feedback in a written language. Especially, if the written language is not your mother tounge. The tone of code reviews can greatly influence morale within teams. Reviews with a harsh tone contribute to a feeling of a hostile environment with their microaggressions. Opinionated language can turn people defensive, sparking heated discussions. At the same time, a professional and positive tone can contribute to a more inclusive environment. People in these environments are open to constructive feedback and code reviews can instead trigger healthy and lively discussions.
+
+Good code reviews ask open-ended questions instead of making strong or opinionated statements. They offer alternatives and possible workarounds that might work better for the situation without insisting those solutions are the best or only way to proceed. These reviews assume the reviewer might be missing something and ask for *clarification* instead of *correction*.
+
+Better code reviews are also empathetic. They know that the person writing the code spent a lot of time and effort on this change. These code reviews are kind and unassuming. They applaud nice solutions and are all-round positive.
+
+
+
+
 ### Two reviewers are better than one
 It’s not easy to find a consensus if there are two different opinions on the table and two people who have to agree on one of them. Despite how strict computer science can be, there are a ton of problems which solutions based on very non-scientific premises and guesses. Both sides can argue and even fight to prove one’s right. Not many developers have in mind business problems (time!), so they can waste a lot of resources on pointless discussions.
 
