@@ -1,22 +1,22 @@
 ---
 layout: episode
-title: using the GitHub web interface
-teaching: 15
-exercises: 40
+title: through GitHub
+teaching: 10
+exercises: 30
 questions:
   - How can we give feedback through GitHub?
 objectives:
-  - Repeat how to collaborate using a centralized workflow.
-  - Use functionalities of the web interface of GitHub
+  - Repeat how to collaborate using a centralized workflow
+  - Use code review functionalities of the web interface of GitHub
 keypoints:
   - Code review and GitHub
-  - "`origin` refers to where you cloned from (but you can relocate it)."
+  - "`origin` refers to where you cloned from (but you can relocate it)"
 
 ---
 
 ## Code review exercise
 
-In this exercise we will practice code reviews and the collaborative centralized workflow in small
+In this exercise, we will practice code reviews and the collaborative centralized workflow in small
 groups.  We'll discuss a number of
 typical pitfalls.
 
@@ -24,8 +24,7 @@ typical pitfalls.
 > ## Exercise preparation
 >
 > **The helper (administrator)** generates a new repository
->   from the template [template-centralized-workflow-exercise](https://github.com/coderefinery/template-centralized-workflow-exercise) add
->   called `code-review-exercise` (There is no need to tick *"Include all branches"* for this exercise)
+>   from the template [exercise-code-review](https://github.com/sunnivin/exercise-code-review). (There is no need to tick *"Include all branches"* for this exercise)
 > - Then **everyone in your group** needs their GitHub account to be added as collaborator to the exercise repository:
 >   - Participants give their GitHub usernames to their administrator (in their respective group, in online workshops you can use the Zoom chat for private communication within the breakout room).
 >   - Administrator gives the other group members the newly created GitHub repository URL.
@@ -33,34 +32,21 @@ typical pitfalls.
 >   - Group members need to accept the invitation. GitHub emails you an invitation link, but if you don't receive it
 >     you can go to your GitHub notifications in the top right corner. The administrator can also "copy invite link"
 >     and share it within the group.
+>   - In the exercise you will all review the pull request of a colleague
 {: .prereq}
 
-> ## Watching and unwatching repositories
->
-> - Now that you are a collaborator, you get notified about new issues and pull
->   requests via email.
-> - If you do not wish this, you can "unwatch" a repository (top of the project page).
-> - However, we recommend watching repositories you are interested in. You can learn things from experts just by
->   watching the activity that come through.
-{: .callout}
 
 > ## Exercise description
 >
 > - Helper prepares an exercise repository (see above) - this will take 10 minutes or so.
 > - The exercise group works in small steps 1-8 (15-20 minutes). The point is to do a code review through GitHub.
-> - Before we start with the exercise, instructor mentions all steps and explains what happens during a `git clone`.
+> - Before we start with the exercise, the instructor mentions all steps.
 {: .challenge}
 
 
 ### 1. Fork your administrator's group repository
 
 - Fork the repository on GitHub
-
- This is how it looks after we fork:
-
-*central*: ![]({{ site.baseurl }}/img/forking/github-remote-01.svg)
-
-*fork*: ![]({{ site.baseurl }}/img/forking/github-remote-01.svg)
 
 
 
@@ -82,21 +68,14 @@ typical pitfalls.
 
 ### 2. Clone your administrator's group repository
 
-- Type the following command in a terminal
-```
-$ git clone https://https://github.com/sunnivin/module-based-type-along modular-based-type-along centralized-workflow-exercise
-```
-
-Where you replace `sunnivin` by the namespace of the repository administrator.
-
+- By the `git clone` command.
 
 ### 3. Step into the newly created directory
 
 ```
-$ cd centralized-workflow-exercise
+$ cd your-folder-name
 ```
-
-Try to find out where this repository was cloned from using `git remote -v`.
+- Try to find out where this repository was cloned from using `git remote -v`.
 
 
 ### 4. Create a branch `somefeature`
@@ -108,13 +87,11 @@ $ git checkout -b somefeature
 ```
 
 
-### 5. Update the `imporvements.py` file to use a library
+### 5. Update the `imporvement.py` file to use a library
 
-- You receive a comment from your colleague that it exist a library for python called `numpy`. This library already has implemented functionalities for calculating the mean of an array. Since you know that it is a good idea to use existing code you decide to change the `compute_mean` function with the library function.
+- You receive a comment from your colleague that it exists a library for python called `numpy`. This library already has implemented functionalities for calculating the mean of an array. Since you know that it is a good idea to use existing code you decide to change the `compute_mean` function with the library function.
 
-- **Think for yourself**. What you would do to if you where to use the `numpy` library instead of your own function. If you do not know you can copy the following code inside the file
-
-
+- **Think for yourself**. What you would do if you were to use the `numpy` library instead of the home made function? If you do not know you can copy the code given below:
 
 > > ## One solution with `numpy`
 > >
@@ -163,7 +140,7 @@ $ git checkout -b somefeature
 ### 5. Stage and commit the change
 
 ```
-$ git add improvements.py
+$ git add improvement.py
 $ git commit
 ```
 
@@ -177,7 +154,7 @@ $ git push origin -u somefeature
 
 ### 7. Submit a pull request
 
-Submit a pull request from your branch towards the `master` branch in the repository of the administrator through the web interface of GitHub.
+Submit a pull request from your branch towards the `main` branch in the repository of the administrator through the web interface of GitHub.
 
 Assign a member of your team to review the change you suggested. Wait in this step until you are assigned to review the changes of someone else in your team.
 
@@ -190,14 +167,14 @@ Look through the pull request, and decide if you would like to:
 
 And submit the review. If you have no comments you can write LGTM (looks good to me), a polite way to say that you accept the purposed changes.
 
-**Do not accept the pull-request!** Since you are several people performing the same exercise you will see a lot of conflicts if everyone actually merge the code into the `main` branch. The point with the exercise is to explore the review function of GitHub.
+**Do not accept the pull-request!** Since you are several people performing the same exercise you will see a lot of conflicts if everyone actually merges the code into the `main` branch. The point of the exercise is to explore the review function of GitHub.
 
 
 > ## (Optional) Exercise/discussion: Add the median of the measurements to the plots?
 >
 > This exercise is optional and you can do it if you have time to repeat the steps you did previously by yourself.
 >
-> Go through the steps 1-8 again without following the detailed instructions. This time you add the median of the data to the plot, by using the numpy library.
+> Go through steps 1-8 again without following the detailed instructions. This time you add the median of the data to the plot, by using the numpy library.
 > > ## One solution with `numpy`
 > >
 > > ``` python
