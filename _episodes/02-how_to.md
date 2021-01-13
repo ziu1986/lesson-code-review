@@ -1,8 +1,8 @@
 ---
 layout: episode
 title: Best practices
-teaching: 20
-exercises: 40
+teaching: 15
+exercises: 0
 questions:
   - How can we collaborate with others within one repository?
 objectives:
@@ -163,18 +163,3 @@ However, a lot of decisions have been made already – but they are lost in time
 There are different ways how to create documentation like this. I like tools like Notion to develop and maintain wiki-like pages with e.g., decisions made by business or rules established by developers.
 
 Doc like this can be referenced during reviews to avoid unnecessary conflicts.
-
-
-
-
-## Educate how to do a good Code Review
-There are some rules about how code review should be performed to achieve its goals. Not every developer is aware of that.
-
-The review should be based on facts, not guesses. It’s not a place to think about any personal matters – the only thing that matters is code change and how it affects the project.
-
-Each comment with feedback should include the explanation (“this is wrong because”) and proposal of a better solution (“maybe try to do it like this: …”). Extra points for linking to external sources like documentation so that code author can learn for the future.
-
-And the most important – developers have to understand that they have a common goal which is the best code they can do. This is not a place of personal ego or competition who is a better engineer.
-
-## Introduce extra developer to solve conflicts
-In case of ongoing conflict where there are two developers can’t agree with, you can invite the third developer to tip the scale and solve the problem. This extra engineer is not only an additional opinion but also a mediator between conflicted two.

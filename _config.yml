@@ -1,9 +1,9 @@
 
-fork_me_ribbon_url: https://github.com/coderefinery/git-collaborative
+fork_me_ribbon_url: https://github.com/sunnivin/lesson-code-review
 baseurl: "/lesson-code-review"
 title: "Code review"
-centralized_workflow_exercise_url: https://github.com/coderefinery/centralized-workflow-exercise
-forking_workflow_exercise_url: https://github.com/coderefinery/forking-workflow-exercise
+code_review_exercise: https://github.com/sunnivin/exercise-code-review
+
 
 source: .
 destination: ./_site

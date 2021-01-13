@@ -4,12 +4,12 @@ title: Definitions
 teaching: 20
 exercises: 0
 questions:
-  - How can we minimize the number of bungs in a project?
+  - How can we minimize the number of bugs in a project?
   - How can we make sure that the code style is followed by all developers?
 objectives:
   - Understand the usefulness of code reviews in teamwork
 keypoints:
-  - Minimize buggs and error in new code
+  - Minimize bugs and error in new code
 ---
 
 
