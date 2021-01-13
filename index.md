@@ -3,9 +3,7 @@ layout: lesson
 permalink: /
 ---
 
-# Code reviews makes good work great
-
-The best way to make good work great.
+# Code reviews make good work great
 To give a general definition of what a good code means is almost impossible. If you are working alone on a project you could say that good code is something that works. At the moment where you are collaborating with several people and you are developing a codebase that was written in the past, it starts to get hard.
 
 ## Code reviews for teams
@@ -17,7 +15,7 @@ At some point in the life cycle of a codebase when the number of developers is i
 ![](/img/index/wtf.png)
 
 
-*A code review separates good and bad code*
+*A good code review will good and bad code*
 <br>
 
 
