@@ -4,10 +4,10 @@ permalink: /
 ---
 
 # Code reviews, or how to make good work great
-To give a general definition of what a good code means is almost impossible. If you are working alone on a project you could say that good code is something that works. At the moment where you are collaborating with several people and you are developing a codebase that was written in the past, it starts to get hard.
+To give a general definition of what a 'good code' means is almost impossible. If you are working alone on a project you could say that a good code is something that works. At the moment where you are collaborating with several people and at the same time develop a codebase written in the past, it starts to get hard.
 
 ## Code reviews for teams
-At some point in the life cycle of a codebase when the number of developers is increased from one to N there will come a point where someone will suggest changes that are not foreseen or planned for in the original base. Suddenly you can find yourself working on a big project where several persons, at different times, have contributed to the development of the codebase.
+At some point in the life cycle of a codebase, e.g. when the number of developers is increased from one to N, there will come a point where someone will suggest changes that are not foreseen or planned for in the original codebase. Suddenly you can find yourself working on a big project where several persons, at different times, have contributed to the development of the codebase. This implies the challenge of keeping the code base well organized and structured.
 
 
 <br>
@@ -15,7 +15,7 @@ At some point in the life cycle of a codebase when the number of developers is i
 ![](/img/index/wtf.png)
 
 
-*A good code review will good and bad code*
+*A good code review can separate good and bad code*
 <br>
 
 
@@ -31,12 +31,12 @@ This lesson material is taken from:
 >
 > 1. Basic understanding of Git.
 > 2. You need a [GitHub](https://github.com) account.
-> 3. You need a project which where it has been performed some work. For instance the modular code development.
+> 3. You need a project where it has been performed some work. For instance the modular code development.
 >
 > We will do this exercise on [GitHub](https://github.com) but also
 > [GitLab](https://gitlab.com) and [Bitbucket](https://bitbucket.org) allow
 > similar workflows and basically everything that we will discuss is transferable. With
-> this material and these exercises we do not endorse the company
+> this material and these exercises, we do not endorse the company
 > [GitHub](https://github.com). We have chosen to demonstrate a number of
 > concepts using examples with [GitHub](https://github.com) because it is
 > currently the most popular web platform for hosting Git repositories and the chance is high
