@@ -66,7 +66,7 @@ typical pitfalls.
 > {: .solution}
 {: .challenge}
 
-### 2. Clone your administrator's group repository
+### 2. Clone your repository
 
 - By the `git clone` command.
 
